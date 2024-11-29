@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    background-color: #fc4754;
+    background-image: url('../img/bodypigment.png'); /* путь к вашему изображению */
+    background-size: cover; /* заставляет изображение полностью покрывать блок */
+    background-repeat: no-repeat; /* убирает повторение изображения */
+    background-position: center; /* позиционирует изображение по центру */
+}
+body a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    margin-left: 50px;
+    font-size: 16;
+}
+
+
+
+
+.main {
+    padding: 50px;
+    height: 900px;
+    margin: 100px;
+    background-color: #050303;
+    background-image: url('../img/Group 8.png');
+    background-size: cover; /* заставляет изображение полностью покрывать блок */
+    background-repeat: no-repeat; /* убирает повторение изображения */
+    background-position: center; /* позиционирует изображение по центру */
+}
+
+.block{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content:flex-end;
+    justify-items: center;
+    height: 7%;
+
+}
+.logo{
+    align-self: center;
+    font-weight: bold;
+    font-size: 28;
+    justify-content:flex-start;
+    margin-right: 600px;
+}
+
+.ssylki{
+    margin-right: 100px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.ssylki a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    margin-left: 50px;
+    padding-bottom: 5px;
+    font-size: 16;
+
+}
+
+a:hover{
+    color:rgb(253, 253, 253);
+    border-bottom: 2px solid rgb(253, 253, 253);
+    transform: translateX(100px)
+}
+
+button{
+    margin-top: 10px;
+    font-size: 15px;
+    height:50px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #fc4754;
+    color:hsl(0, 0%, 100%);
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: #180b0c;
+    transition: background-color 0.5s ease;
+    border: 2px solid #fc4754;
+}
+
+.cep{
+    height: 700px;
+    width: 50%;
+    background-image: url('../img/Group 7.png');
+    background-size: cover; /* заставляет изображение полностью покрывать блок */
+    background-repeat: no-repeat; /* убирает повторение изображения */
+    background-position: center;
+}
+
+
+
+
+.content h1{
+    padding-right: 50px;
+    line-height: 60px;
+    font-size: 50px;
+    
+}
+
+.content p{
+    line-height: 20px; 
+}
+
+
+.button2{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height:50px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: none;
+    border-color: #cc3a43;
+    background-color: #180b0c;
+    color:hsl(0, 0%, 100%);
+    transition: background-color 0.5s ease;
+    border: 2px solid #fc4754;
+}
+
+.button2:hover{
+    
+    background-color: #fc4754;
+    transition: background-color 0.5s ease;
+}
+
+.content p, .content h1, .content span{
+    margin-bottom: 50px;
+}
+
+.content p{
+    line-height: 20px;
+}
+
+.ortasy{
+    display:flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    
+}
+
+.sag{
+    position: relative;
+    width: 50%;
+}
+
+.sag img{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+}
+
+.followers{
+    display: flex;
+    align-items: center;
+    margin-top: 100px ;
+    
+}
+
+.folitems{
+    border-right: 2px solid rgb(253, 253, 253);
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align:bottom;
+    line-height: 5px;
+}
+
+.folitems i{
+    text-decoration: none;
+    margin-top: 2px;
+    font-size: 28px;
+}
+
+.folitems3{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align:center;
+    line-height: 5px;
+}
+.folitems3 i{
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.main2 {
+    padding: 50px;
+    margin: 100px;
+    background-color:#b89d9d;
+    background-size: cover; /* заставляет изображение полностью покрывать блок */
+    background-repeat: no-repeat; /* убирает повторение изображения */
+    background-position: center; /* позиционирует изображение по центру */
+}
